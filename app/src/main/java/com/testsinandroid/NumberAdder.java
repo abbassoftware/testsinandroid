@@ -1,5 +1,7 @@
 package com.testsinandroid;
 
+import android.support.annotation.VisibleForTesting;
+
 /**
  * Created by abbas on 9/4/17.
  */
@@ -24,6 +26,7 @@ public class NumberAdder {
         mMainActivity.setAdditionResult(result);
     }
 
+    @VisibleForTesting
     boolean isNumberValid(double number) {
         if(number > 0) {
             return true;
