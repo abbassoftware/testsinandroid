@@ -2,9 +2,6 @@ package com.testsinandroid;
 
 import android.support.annotation.VisibleForTesting;
 
-/**
- * Created by abbas on 9/4/17.
- */
 public class NumberAdder {
 
        private final MainActivity mMainActivity;
